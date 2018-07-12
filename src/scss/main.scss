@@ -1,0 +1,27 @@
+// variables
+$font_base: 16px;
+$fontM: 1rem;
+$fontMS: 0.9rem;
+$fontS: 0.8rem;
+
+$pad: 1rem;
+$padS: 0.8rem;
+$padSS: 0.6rem;
+$padSSS: 0.4rem;
+
+$color_black: #000000;
+$color_white: #ffffff;
+$color_grey_l: #ececec;
+$color_grey: #d4d4d4;
+$color_grey_t: #c3c3c3;
+
+
+$color_border: $color_grey_t;
+$color_bg_grey: $color_grey_l;
+$color_text: lighten($color_black, 1);
+
+html,body{
+  font-size: $font_base;
+}
+
+
