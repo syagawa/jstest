@@ -65,11 +65,6 @@ export function deleteFiles(){
 }
 
 export function server(){
-  nodemon(
-    {
-      "script": "./bin/www"
-    }
-  );
   browser({
     server:{
       baseDir: "./",
